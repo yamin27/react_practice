@@ -8,7 +8,9 @@ function App() {
   return (
     <div className="App">
 
-        <Hello></Hello>
+        <Hello name="Yamin" age="28"></Hello>
+        <Hello name="Kalam" age="30"></Hello>
+        <Hello name="Akter" age="29"></Hello>
 
         <Welcome></Welcome>
 

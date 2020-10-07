@@ -1,10 +1,10 @@
 import React from "react";
 
-function Hello(){
+function Hello(props){
 
     return (
 
-        <h1>hello, i am from functional component</h1>
+        <h1>Name: {props.name}, Age: {props.age}</h1>
 
     );
 }
