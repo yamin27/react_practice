@@ -2,14 +2,14 @@ import React, {Component} from "react";
 
 class Welcome extends Component{
 
-    doThisFromClass(){
-        alert('Button is click form class')
+    doThisFromClass(a){
+        alert(a)
     }
 
     render() {
 
         return <div>
-                    <button onClick={this.doThisFromClass}>Click me from class</button>
+                    <button onClick={this.doThisFromClass.bind(this, "I am from perameter")}>Click me from class</button>
                     <h1> I am from {this.props.name}</h1>
                </div>
 
