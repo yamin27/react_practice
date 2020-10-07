@@ -20,6 +20,12 @@ class State extends Component {
         }
     }
 
+    changeName(a){
+
+        this.setState({name:a})
+
+    }
+
     render() {
 
         return <div>
@@ -27,6 +33,8 @@ class State extends Component {
             <h1>Name: {this.state.name} </h1>
             <h1>age: {this.state.age[2]}</h1>
             <h1>age: {this.state.weight.class7[1]}</h1>
+
+            <button onClick={this.changeName.bind(this, 'Kalam')}> Change Name </button>
 
         </div>
 

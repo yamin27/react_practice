@@ -10,12 +10,12 @@ function App() {
   return (
     <div className="App">
 
-        <Hello name="Yamin" age="28"></Hello>
+        {/*<Hello name="Yamin" age="28"></Hello>*/}
 
 
-        <Welcome name="class 1"></Welcome>
+        {/*<Welcome name="class 1"></Welcome>*/}
 
-        <Arrow/>
+        {/*<Arrow/>*/}
 
         <State></State>
 
