@@ -9,10 +9,8 @@ function App() {
     <div className="App">
 
         <Hello name="Yamin" age="28"></Hello>
-        <Hello name="Kalam" age="30"></Hello>
-        <Hello name="Akter" age="29"></Hello>
 
-        <Welcome></Welcome>
+        <Welcome name="class 1"></Welcome>
 
     </div>
   );
