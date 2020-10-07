@@ -4,6 +4,7 @@ import './App.css';
 import Hello from "./component/hello";
 import Welcome from "./component/welcome";
 import Arrow from "./component/Arrow";
+import State from "./component/state";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Welcome name="class 1"></Welcome>
 
         <Arrow/>
+
+        <State></State>
 
     </div>
   );
