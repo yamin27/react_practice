@@ -5,6 +5,7 @@ import Hello from "./component/hello";
 import Welcome from "./component/welcome";
 import Arrow from "./component/Arrow";
 import State from "./component/state";
+import Condition from "./component/Condition";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         {/*<Arrow/>*/}
 
         <State></State>
+        <Condition></Condition>
 
     </div>
   );
