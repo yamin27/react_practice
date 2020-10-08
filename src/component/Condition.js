@@ -7,25 +7,16 @@ class Condition extends Component{
 
         this.state= {
 
-            login:false
+            login:true
         }
 
     }
 
     render() {
 
-        if (this.state.login == true) {
-
-            return (
-                <button>Logout Button</button>
-            )
-
-        }else {
-
-            return (
-                <button>Login</button>
-            )
-        }
+       return (
+           this.state.login ? <h1>Condituion true</h1> : <h1>Condition False</h1>
+       )
     }
 }
 
