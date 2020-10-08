@@ -6,6 +6,7 @@ import Welcome from "./component/welcome";
 import Arrow from "./component/Arrow";
 import State from "./component/state";
 import Condition from "./component/Condition";
+import Refresh from "./component/Refresh";
 
 function App() {
   return (
@@ -18,8 +19,10 @@ function App() {
 
         {/*<Arrow/>*/}
 
-        <State></State>
+        {/*<State></State>*/}
         <Condition></Condition>
+
+        <Refresh></Refresh>
 
     </div>
   );
