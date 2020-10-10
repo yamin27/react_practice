@@ -2,13 +2,14 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Hello from "./component/hello";
-import Welcome from "./component/welcome";
-import Arrow from "./component/Arrow";
-import State from "./component/state";
-import Condition from "./component/Condition";
-import Refresh from "./component/Refresh";
-import NewDemo from "./component/NewDemo";
+// import Welcome from "./component/welcome";
+// import Arrow from "./component/Arrow";
+// import State from "./component/state";
+// import Condition from "./component/Condition";
+// import Refresh from "./component/Refresh";
+// import NewDemo from "./component/NewDemo";
 import AnotherDemo from "./component/AnotherDemo";
+import Form from "./component/Form";
 
 function App() {
   return (
@@ -25,8 +26,9 @@ function App() {
         {/*<Condition></Condition>*/}
 
         {/*<Refresh></Refresh>*/}
-        <NewDemo></NewDemo>
-        <AnotherDemo></AnotherDemo>
+        {/*<NewDemo></NewDemo>*/}
+        {/*<AnotherDemo></AnotherDemo>*/}
+        <Form></Form>
 
     </div>
   );
