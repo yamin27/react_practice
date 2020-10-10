@@ -8,9 +8,10 @@ import Hello from "./component/hello";
 // import Condition from "./component/Condition";
 // import Refresh from "./component/Refresh";
 // import NewDemo from "./component/NewDemo";
-import AnotherDemo from "./component/AnotherDemo";
-import Form from "./component/Form";
-import Signup from "./component/Signup";
+// import AnotherDemo from "./component/AnotherDemo";
+// import Form from "./component/Form";
+// import Signup from "./component/Signup";
+import Text from "./component/Text";
 
 function App() {
   return (
@@ -31,7 +32,9 @@ function App() {
         {/*<AnotherDemo></AnotherDemo>*/}
         {/*<Form></Form>*/}
 
-        <Signup></Signup>
+        {/*<Signup></Signup>*/}
+
+        <Text></Text>
 
     </div>
   );
