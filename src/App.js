@@ -11,7 +11,8 @@ import Hello from "./component/hello";
 // import AnotherDemo from "./component/AnotherDemo";
 // import Form from "./component/Form";
 // import Signup from "./component/Signup";
-import Text from "./component/Text";
+// import Text from "./component/Text";
+import Select from "./component/Select";
 
 function App() {
   return (
@@ -34,7 +35,10 @@ function App() {
 
         {/*<Signup></Signup>*/}
 
-        <Text></Text>
+        {/*<Text></Text>*/}
+
+        <Select></Select>
+
 
     </div>
   );
