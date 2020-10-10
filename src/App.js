@@ -7,6 +7,7 @@ import Arrow from "./component/Arrow";
 import State from "./component/state";
 import Condition from "./component/Condition";
 import Refresh from "./component/Refresh";
+import NewDemo from "./component/NewDemo";
 
 function App() {
   return (
@@ -20,9 +21,10 @@ function App() {
         {/*<Arrow/>*/}
 
         {/*<State></State>*/}
-        <Condition></Condition>
+        {/*<Condition></Condition>*/}
 
-        <Refresh></Refresh>
+        {/*<Refresh></Refresh>*/}
+        <NewDemo></NewDemo>
 
     </div>
   );
